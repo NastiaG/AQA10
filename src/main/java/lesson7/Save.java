@@ -22,7 +22,7 @@ public class Save {
             for (int i = 0; i < appData.getData().length; i++) {
                 for (int j = 0; j < appData.getData()[0].length; j++) {
                     if (j != appData.getData()[0].length - 1) {
-                        writer.write(String.valueOf(appData.getData()[i][j]) + ";");
+                        writer.write((appData.getData()[i][j]) + ";");
                     } else {
                         writer.write(String.valueOf(appData.getData()[i][j]));
                     }
